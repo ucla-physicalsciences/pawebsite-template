@@ -10,32 +10,32 @@
 <!-- Navbar -->
   <nav class="py-4 navbar navbar-expand-lg  auto-hiding-navbar navbar-light bg-light">
      <div class="container">
-       <a class="navbar-brand" href="#"><h1>My Group</h1></a>
+       <a class="navbar-brand" href="#"><h1>Leibrandt Group</h1></a>
        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
        <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav ms-auto">
            <li class="nav-item">
-             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+       <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="research.html">Research</a>
+       <a class="nav-link {% if page.url == '/research.html' %}active{% endif %}" href="research.html">Research</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="publication.html">Publications</a>
+       <a class="nav-link {% if page.url == '/publication.html' %}active{% endif %}" href="publication.html">Publications</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="people.html">People</a>
+             <a class="nav-link {% if page.url == '/people.html' %}active{% endif %}" href="people.html">People</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="news.html">News</a>
+             <a class="nav-link {% if page.url == '/news.html' %}active{% endif %}" href="news.html">News</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="opening.html">Openings</a>
+             <a class="nav-link {% if page.url == '/opening.html' %}active{% endif %}" href="opening.html">Openings</a>
            </li>
            <li class="nav-item">
-             <a class="nav-link" href="contact.html">Contact</a>
+             <a class="nav-link {% if page.url == '/contact.html' %}active{% endif %}" href="contact.html">Contact</a>
            </li>
          </ul>
        </div>
