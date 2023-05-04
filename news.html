@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Site</title>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/custom_bootstrap.css">
+        <link rel="stylesheet" href="assets/css/update.css">
+        <link rel="SHORTCUT ICON" href="assets/images/favicon.ico" />
+    </head>
+    <body>
+<!-- JavaScript Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>         
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<!-- topbar and navagation -->
+<div id="nav-placeholder"> </div>
+
+<script>
+    $(function(){
+      $("#nav-placeholder").load("includes/menu.html");
+      $("#footer-placeholder").load("includes/footer.html");
+    });
+</script>
+
+<div class="container pt-1"> </div>
+
+<div class="container mt-3">
+    <h2 class="page-title">News</h2><br><br>  
+           
+    <div class="row">
+        <div class="col-md-5">
+            <img class="research-img rounded mx-auto d-block" src="assets/images/Picture8.png">
+        </div>
+        <div class="col-md-7">
+            <p>November 1, 2022 - My group starts as a Professor in the Department of Physics & Astronomy at UCLA!  Previously, he was an Associate Professor Adjoint at the University of Colorado and led the trapped-ion optical atomic clock and precision measurement experiments within the Ion Storage Group at the National Institute of Standards and Technology in Boulder, CO.</p>
+        </div>
+    </div>
+</div>
+<div id="footer-placeholder"> </div>
+</body>
+</html>

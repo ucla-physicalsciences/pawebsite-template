@@ -1,0 +1,76 @@
+
+.text-primary {
+  color: #2774AE !important;
+}
+
+.breadcrumb {
+  border-radius: 0;
+  line-height: 1.15;
+}
+
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: white;
+}
+
+.ucla-logo {
+  width: 3em;
+  height: auto;
+  margin-right: -1px;
+  vertical-align: top;
+}
+
+.flex-container {
+  background-color: #2774AE;
+}
+.topbar-text {
+  padding-top: 10px;
+}
+
+.footer-bs{
+          background-color: #005587;
+          width: 100%;
+          min-height: 200px;
+          margin-top: 50px;
+      }
+.text-link {
+  color: white;
+}
+
+.text-primary {
+  color: white;
+}
+
+.research-img {
+  max-width:500px; height:auto; 
+}
+
+.remove-underline { 
+  text-decoration: none; 
+}
+.contact ul li a{
+  text-decoration: none;
+}
+.page-title {
+ color: #2774AE;
+ padding-top: 20;
+}
+
+.footer-bs ul {
+  list-style-type: none;
+  margin: 20;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+.footer-bs ul li a {
+color:#f6dca4;
+text-decoration: none;}
+
+.footer-bs ul li a:hover {
+color:#8BB8E8;
+text-decoration: none;}
+
+#footer-content {
+  color: white;
+}
