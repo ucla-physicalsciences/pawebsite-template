@@ -1,6 +1,28 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Site</title>
+        <!-- CSS only -->
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="assets/css/custom_bootstrap.css">
+        <link rel="stylesheet" href="assets/css/update.css">
+        <link rel="SHORTCUT ICON" href="assets/images/favicon.ico" />
+    </head>
+    <body>
+<!-- JavaScript Bundle with Popper -->
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+          <script>
+    $(function(){
+      $("#nav-placeholder").load("includes/menu.html");
+      $("#footer-placeholder").load("includes/footer.html");
+    });
+</script>
+<!-- topbar and navagation -->
+<div id="nav-placeholder"> </div>
 
 <div class="container pt-0">               
   <div class="col-12"></div>
@@ -13,5 +35,11 @@ layout: default
           <p>Welcome to my Group in the UCLA Department of Physics & Astronomy!  We perform experimental AMO research at the intersection of trapped-ion quantum information processing, precision measurement, ultracold chemistry, and fundamental physics.</p>       
       </div>
     </div>
-  </div>  
+  </div>
+   
 </div>       
+
+<div id="footer-placeholder"> </div> 
+    
+</body>
+</html>
