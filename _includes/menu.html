@@ -21,22 +21,23 @@
          </li>
          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
           <!--<li class="nav-item>-->
-             <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services Resources
+             <li class="nav-item dropdown"> 
+              <a class="nav-link {% if page.url == '/research.html' %}active{% endif %}" href="research.html">Research</a>
+             <a class="nav-link dropdown-toggle" {% if page.url == '/research.html' %}active{% endif %}" href="research.html" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Research
              </a>
              <!-- <ul class="dropdown-menu menu-dropdown" aria-labelledby="dropdownMenuLink"> -->
               <ul class="dropdown-menu">
                                <li>
-                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 1</a>
+                                   <a class="text-decoration-none dropdown-item" {% if page.url == '/research1.html' %}active{% endif %}" href="research1.html">Research 1</a>
                                </li>
                                <li >
-                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 2</a>
+                                <a class="text-decoration-none dropdown-item" {% if page.url == '/research2.html' %}active{% endif %}" href="research2.html">Research 1</a>
                                </li>
                                <li >
-                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 3</a>
+                                <a class="text-decoration-none dropdown-item" {% if page.url == '/research3.html' %}active{% endif %}" href="research3.html">Research 1</a>
                                </li>
                                <li >
-                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 4</a>
+                                <a class="text-decoration-none dropdown-item" {% if page.url == '/research3.html' %}active{% endif %}" href="research3.html">Research 1</a>
                                </li>
               </ul>
             </li>
