@@ -19,11 +19,10 @@
          <li class="nav-item">
           <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
          </li>
-          <!--<li class="nav-item>-->
              <li class="nav-item dropdown"> 
-              <a aria-haspopup="true" aria-expanded="false" id="collasible-nav-dropdown" href="research.html" class="dropdown-toggle nav-link active" role="button">Top Item</a>
+              <a class="nav-link dropdown-toggle" href="research.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
               </a>
-             <!-- <ul class="dropdown-menu menu-dropdown" aria-labelledby="dropdownMenuLink"> -->
               <ul class="dropdown-menu">
                                <li>
                                    <a class="text-decoration-none dropdown-item" {% if page.url == '/research1.html' %}active{% endif %}" href="research1.html">Research 1</a>
