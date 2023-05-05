@@ -17,8 +17,30 @@
      <div class="collapse navbar-collapse" id="navbarSupportedContent">
        <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-     <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link {% if page.url == '/' %}active{% endif %}" aria-current="page" href="index.html">Home</a>
          </li>
+         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <!--<li class="nav-item>-->
+             <li class="nav-item dropdown">
+             <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services Resources
+             </a>
+             <!-- <ul class="dropdown-menu menu-dropdown" aria-labelledby="dropdownMenuLink"> -->
+              <ul class="dropdown-menu">
+                               <li>
+                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 1</a>
+                               </li>
+                               <li >
+                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 2</a>
+                               </li>
+                               <li >
+                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 3</a>
+                               </li>
+                               <li >
+                                   <a class="text-decoration-none dropdown-item" href="" title="">Research 4</a>
+                               </li>
+              </ul>
+            </li>
+          </div>
          <li class="nav-item">
      <a class="nav-link {% if page.url == '/research.html' %}active{% endif %}" href="research.html">Research</a>
          </li>
